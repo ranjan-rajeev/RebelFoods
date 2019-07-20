@@ -1,0 +1,4 @@
+#Sat Jul 20 01:27:38 IST 2019
+base.0=D\:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\transforms\\dexMerger\\free\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
