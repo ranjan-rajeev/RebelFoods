@@ -48,12 +48,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\355b3863f7fdff324c6d5e4a8674834b\\res\\animator\\mtrl_chip_state_list_anim.xml"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
-        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\355b3863f7fdff324c6d5e4a8674834b\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable_circular_background_lightgray.xml.flat",
         "source": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\src\\main\\res\\drawable\\circular_background_lightgray.xml"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
+        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\355b3863f7fdff324c6d5e4a8674834b\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
@@ -204,12 +204,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable_circular_background_green.xml.flat",
-        "source": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\src\\main\\res\\drawable\\circular_background_green.xml"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable_circular_background_green.xml.flat",
+        "source": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\src\\main\\res\\drawable\\circular_background_green.xml"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -224,12 +224,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\menu_menu_main.xml.flat",
-        "source": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\menu_menu_main.xml.flat",
+        "source": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
@@ -280,12 +280,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\355b3863f7fdff324c6d5e4a8674834b\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\355b3863f7fdff324c6d5e4a8674834b\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\color_mtrl_btn_ripple_color.xml.flat",
@@ -296,12 +296,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
-        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -328,12 +328,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\9070310a7e52314aaa357698825aafc5\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\anim_abc_slide_out_top.xml.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -464,12 +464,12 @@
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\color_mtrl_btn_bg_color_selector.xml.flat",
@@ -1918,6 +1918,10 @@
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\layout_item_all_user.xml.flat",
+        "source": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\src\\main\\res\\layout\\item_all_user.xml"
     },
     {
         "merged": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\res\\merged\\free\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",

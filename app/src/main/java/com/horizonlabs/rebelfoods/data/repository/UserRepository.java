@@ -4,12 +4,14 @@ import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import com.horizonlabs.rebelfoods.data.local.RebelDatabase;
 import com.horizonlabs.rebelfoods.data.local.dao.UserDao;
 import com.horizonlabs.rebelfoods.data.local.entity.UserEntity;
 import com.horizonlabs.rebelfoods.data.remote.RetrofitClent;
 import com.horizonlabs.rebelfoods.data.remote.api.UserApi;
+import com.horizonlabs.rebelfoods.utils.Logger;
 
 import java.util.List;
 
@@ -45,10 +47,13 @@ public class UserRepository {
     }
 
     public LiveData<List<UserEntity>> getAllUser() {
+
+        getUsersFromServer();
         return allUser;
     }
 
     public LiveData<List<UserEntity>> getFavouriteUser() {
+
         return favouriteUser;
     }
 
@@ -82,23 +87,24 @@ public class UserRepository {
         }
     }
 
-    public MutableLiveData<List<UserEntity>> getUsersFromServer() {
-        final MutableLiveData<List<UserEntity>> userList = new MutableLiveData<>();
+    public LiveData<List<UserEntity>> getUsersFromServer() {
 
-        userApi.getUsers().enqueue(new Callback<LiveData<List<UserEntity>>>() {
+        userApi.getUsers().enqueue(new Callback<List<UserEntity>>() {
             @Override
-            public void onResponse(Call<LiveData<List<UserEntity>>> call, Response<LiveData<List<UserEntity>>> response) {
-                if (response.isSuccessful()) {
-                    userList.setValue(response.body().getValue());
+            public void onResponse(Call<List<UserEntity>> call, Response<List<UserEntity>> response) {
+                if (response.isSuccessful() && allUser==null) {
+                    Logger.d("list fetch successful");
+                    insert(response.body().toArray(new UserEntity[response.body().size()]));
                 }
             }
 
             @Override
-            public void onFailure(Call<LiveData<List<UserEntity>>> call, Throwable t) {
-
+            public void onFailure(Call<List<UserEntity>> call, Throwable t) {
+                // TODO: 20-07-2019 HAndle failure cases
+                Logger.d("" + t.getMessage());
             }
         });
 
-        return userList;
+        return allUser;
     }
 }

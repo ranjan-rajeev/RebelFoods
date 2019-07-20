@@ -13,7 +13,7 @@ import com.horizonlabs.rebelfoods.data.local.entity.UserEntity;
 /**
  * Created by Rajeev Ranjan -  ABPB on 20-07-2019.
  */
-@Database(entities = {UserEntity.class}, version = 1)
+@Database(entities = {UserEntity.class}, version = 1,exportSchema = false)
 public abstract class RebelDatabase extends RoomDatabase {
 
     private static RebelDatabase rebelDatabase;

@@ -15,5 +15,5 @@ import retrofit2.http.GET;
 public interface UserApi {
 
     @GET("/users")
-    Call<LiveData<List<UserEntity>>> getUsers();
+    Call<List<UserEntity>> getUsers();
 }

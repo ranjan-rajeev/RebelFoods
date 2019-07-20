@@ -1,12 +1,14 @@
 package com.horizonlabs.rebelfoods.data.local.entity;
 
+import android.arch.persistence.room.ColumnInfo;
+
 public class CompanyEntity {
     /**
      * name : Romaguera-Crona
      * catchPhrase : Multi-layered client-server neural-net
      * bs : harness real-time e-markets
      */
-
+    @ColumnInfo(name = "company_name")
     private String name;
     private String catchPhrase;
     private String bs;

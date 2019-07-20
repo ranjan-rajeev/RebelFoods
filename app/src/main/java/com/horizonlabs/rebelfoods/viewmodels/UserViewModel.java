@@ -16,15 +16,13 @@ import java.util.List;
 public class UserViewModel extends AndroidViewModel {
 
     private UserRepository userRepository;
-    private LiveData<List<UserEntity>> allUser;
-    private LiveData<List<UserEntity>> favouriteUser;
 
+    private LiveData<List<UserEntity>> allUser;
 
     public UserViewModel(@NonNull Application application) {
         super(application);
         userRepository = new UserRepository(application);
         allUser = userRepository.getAllUser();
-        favouriteUser = userRepository.getFavouriteUser();
     }
 
 
@@ -33,6 +31,11 @@ public class UserViewModel extends AndroidViewModel {
     }
 
     public void update(UserEntity userEntity) {
+        if (userEntity.getIsBookmarked() == 0) {
+            userEntity.setIsBookmarked(1);
+        } else {
+            userEntity.setIsBookmarked(0);
+        }
         userRepository.update(userEntity);
     }
 
@@ -40,8 +43,5 @@ public class UserViewModel extends AndroidViewModel {
         return allUser;
     }
 
-    public LiveData<List<UserEntity>> getFavouriteUser() {
-        return favouriteUser;
-    }
 
 }

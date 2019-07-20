@@ -41,16 +41,22 @@ configurations {
 }
 
 dependencies {
+    final ROOM_VERSION = '1.1.1'
+    final LIFECYCLE_VERSION = '1.1.1'
+    final RETROFIT_VERSION = '2.6.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
 
-    implementation 'android.arch.persistence.room:runtime:1.1.1'
-    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation "android.arch.lifecycle:extensions:$LIFECYCLE_VERSION"
 
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+
+    // Room SQLite for data persistence
+    implementation "android.arch.persistence.room:runtime:$ROOM_VERSION"
+    annotationProcessor "android.arch.persistence.room:compiler:$ROOM_VERSION"
 
 }

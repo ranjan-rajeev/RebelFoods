@@ -35,6 +35,10 @@ public class UserEntity {
 
     private int isBookmarked = 0;
 
+    public void setIsBookmarked(int isBookmarked) {
+        this.isBookmarked = isBookmarked;
+    }
+
     public int getId() {
         return id;
     }
@@ -99,4 +103,7 @@ public class UserEntity {
         this.company = company;
     }
 
+    public int getIsBookmarked() {
+        return isBookmarked;
+    }
 }
