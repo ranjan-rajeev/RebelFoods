@@ -90,7 +90,7 @@ public class UserRepository {
         userApi.getUsers().enqueue(new Callback<List<UserEntity>>() {
             @Override
             public void onResponse(Call<List<UserEntity>> call, Response<List<UserEntity>> response) {
-                if (response.isSuccessful() && allUser==null) {
+                if (response.isSuccessful() && allUser.getValue().size() == 0) {
                     Logger.d("list fetch successful");
                     insert(response.body().toArray(new UserEntity[response.body().size()]));
                 }
