@@ -2,6 +2,7 @@ package com.horizonlabs.rebelfoods.ui.fragments;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 
 import com.horizonlabs.rebelfoods.R;
 import com.horizonlabs.rebelfoods.data.local.entity.UserEntity;
+import com.horizonlabs.rebelfoods.ui.activities.AddressDetailActivity;
 import com.horizonlabs.rebelfoods.ui.adapters.UserAdapter;
 import com.horizonlabs.rebelfoods.ui.base.BaseFragment;
 import com.horizonlabs.rebelfoods.viewmodels.FavouriteViewModel;
@@ -40,7 +42,7 @@ public class FavouriteFragment extends BaseFragment {
         rvFavouriteUser = view.findViewById(R.id.rvFavouriteUser);
         rvFavouriteUser.setLayoutManager(new LinearLayoutManager(this.getActivity()));
         rvFavouriteUser.setHasFixedSize(true);
-        favouriteAdapter = new UserAdapter();
+        favouriteAdapter = new UserAdapter(getActivity());
         rvFavouriteUser.setAdapter(favouriteAdapter);
 
         userViewModel = ViewModelProviders.of(this.getActivity()).get(FavouriteViewModel.class);
@@ -59,6 +61,11 @@ public class FavouriteFragment extends BaseFragment {
         favouriteAdapter.setOnItemClickListener(new UserAdapter.ItemClick() {
             @Override
             public void onItemClick(UserEntity userEntity) {
+                startActivity(new Intent(getActivity(), AddressDetailActivity.class));
+            }
+
+            @Override
+            public void onFavouriteClick(UserEntity userEntity) {
                 userViewModel.update(userEntity);
             }
         });
