@@ -1,18 +1,20 @@
 package com.horizonlabs.rebelfoods.ui.activities;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.horizonlabs.rebelfoods.R;
+import com.horizonlabs.rebelfoods.ui.base.BaseActivity;
 
-public class SplashScreenActivity extends AppCompatActivity {
+import androidx.core.app.ActivityOptionsCompat;
+
+public class SplashScreenActivity extends BaseActivity {
 
     ImageView ivLogo;
     public static final int SPLASH_TIME = 1000;

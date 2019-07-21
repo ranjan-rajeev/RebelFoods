@@ -1,8 +1,9 @@
 package com.horizonlabs.rebelfoods.data.local.entity;
 
-import android.arch.persistence.room.Embedded;
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
+
+import androidx.room.Embedded;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 /**
  * Created by Rajeev Ranjan -  ABPB on 19-07-2019.

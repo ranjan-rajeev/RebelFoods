@@ -1,14 +1,16 @@
 package com.horizonlabs.rebelfoods.viewmodels;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.LiveData;
-import android.support.annotation.NonNull;
+
 
 import com.horizonlabs.rebelfoods.data.local.entity.UserEntity;
 import com.horizonlabs.rebelfoods.data.repository.UserRepository;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 
 /**
  * Created by Rajeev Ranjan -  ABPB on 20-07-2019.

@@ -1,8 +1,7 @@
 package com.horizonlabs.rebelfoods.ui.adapters;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +14,9 @@ import com.horizonlabs.rebelfoods.utils.Utility;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by Rajeev Ranjan -  ABPB on 20-07-2019.

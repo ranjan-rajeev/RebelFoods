@@ -1,7 +1,8 @@
 package com.horizonlabs.rebelfoods.data.remote;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * Created by Rajeev Ranjan -  ABPB on 20-07-2019.

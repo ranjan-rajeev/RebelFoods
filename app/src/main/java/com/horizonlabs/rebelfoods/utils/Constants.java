@@ -8,4 +8,8 @@ public class Constants {
     public static final long CONNECT_TIMEOUT = 60;
     public static final long READ_TIMEOUT = 60;
     public static final long WRITE_TIMEOUT = 60;
+
+    public static final String LAT = "latitude";
+    public static final String LON = "longitude";
+    public static final String ADDRESS = "address";
 }

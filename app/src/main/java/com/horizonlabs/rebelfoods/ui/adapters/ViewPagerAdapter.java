@@ -1,12 +1,14 @@
 package com.horizonlabs.rebelfoods.ui.adapters;
 
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 
 import com.horizonlabs.rebelfoods.ui.fragments.FavouriteFragment;
 import com.horizonlabs.rebelfoods.ui.fragments.UserFragment;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+
 
 /**
  * Created by Rajeev Ranjan -  ABPB on 20-07-2019.

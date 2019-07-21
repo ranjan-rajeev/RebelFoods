@@ -1,10 +1,7 @@
 package com.horizonlabs.rebelfoods.data.repository;
 
 import android.app.Application;
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import com.horizonlabs.rebelfoods.data.local.RebelDatabase;
 import com.horizonlabs.rebelfoods.data.local.dao.UserDao;
@@ -15,6 +12,7 @@ import com.horizonlabs.rebelfoods.utils.Logger;
 
 import java.util.List;
 
+import androidx.lifecycle.LiveData;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

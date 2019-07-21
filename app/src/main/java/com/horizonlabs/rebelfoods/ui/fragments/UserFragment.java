@@ -1,13 +1,7 @@
 package com.horizonlabs.rebelfoods.ui.fragments;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,12 +9,21 @@ import android.widget.Toast;
 
 import com.horizonlabs.rebelfoods.R;
 import com.horizonlabs.rebelfoods.data.local.entity.UserEntity;
-import com.horizonlabs.rebelfoods.ui.activities.AddressDetailActivity;
+import com.horizonlabs.rebelfoods.ui.activities.MapsActivity;
 import com.horizonlabs.rebelfoods.ui.adapters.UserAdapter;
 import com.horizonlabs.rebelfoods.ui.base.BaseFragment;
+import com.horizonlabs.rebelfoods.utils.Constants;
+import com.horizonlabs.rebelfoods.utils.Utility;
 import com.horizonlabs.rebelfoods.viewmodels.UserViewModel;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 
 /**
@@ -60,7 +63,10 @@ public class UserFragment extends BaseFragment {
         userAdapter.setOnItemClickListener(new UserAdapter.ItemClick() {
             @Override
             public void onItemClick(UserEntity userEntity) {
-                startActivity(new Intent(getActivity(), AddressDetailActivity.class));
+                startActivity(new Intent(getActivity(), MapsActivity.class)
+                        .putExtra(Constants.LAT, userEntity.getAddress().getGeo().getLat())
+                        .putExtra(Constants.LON, userEntity.getAddress().getGeo().getLng())
+                        .putExtra(Constants.ADDRESS, Utility.getAddress(userEntity)));
             }
 
             @Override

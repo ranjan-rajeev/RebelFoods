@@ -1,6 +1,7 @@
 package com.horizonlabs.rebelfoods.utils;
 
 import com.horizonlabs.rebelfoods.R;
+import com.horizonlabs.rebelfoods.data.local.entity.UserEntity;
 
 import java.util.Random;
 
@@ -30,5 +31,15 @@ public class Utility {
             shortName = shortName + s[i].charAt(0);
         }
         return shortName;
+    }
+
+    public static String getAddress(UserEntity userEntity) {
+        String address = "";
+        address = "ADDRESS  : " + userEntity.getAddress().getStreet()
+                + " , " + userEntity.getAddress().getSuite()
+                + " , " + userEntity.getAddress().getCity()
+                + " - " + userEntity.getAddress().getZipcode();
+
+        return address;
     }
 }

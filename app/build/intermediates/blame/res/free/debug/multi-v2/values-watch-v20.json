@@ -4,7 +4,7 @@
             "outputFile": "D:\\Rajeev\\GitProjects\\RebelFoods\\app\\build\\intermediates\\incremental\\mergeFreeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0cf907f61ee2984deb6550f74fe135be\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\rajeev.ranjan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\6f3370f6901c664c3251127da0d9841b\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

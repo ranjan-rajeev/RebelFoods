@@ -1,6 +1,7 @@
 package com.horizonlabs.rebelfoods.data.local.entity;
 
-import android.arch.persistence.room.Embedded;
+
+import androidx.room.Embedded;
 
 public class AddressEntity {
     /**
